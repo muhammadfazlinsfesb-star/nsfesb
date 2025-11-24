@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="ms">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CIKYAH KUIH DAN KEREPEK - Home</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <h1>CIKYAH</h1>
+                <span>Kuih & Kerepek Tradisi Terengganu</span>
+            </div>
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="review.html">Review</a></li>
+                    <li><a href="order.html">Order</a></li>
+                </ul>
+                <div class="nav-actions">
+                    <div class="cart-icon" id="cartIcon">
+                        <span class="cart-count">0</span>
+                    </div>
+                    <a href="https://wa.me/01125548624" class="whatsapp-link">WhatsApp</a>
+                </div>
+            </nav>
+            <button class="burger-menu" id="burgerMenu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Kuih & Kerepek Tradisi Terengganu</h1>
+                <p>Segar, Rangup, Homemade</p>
+                <a href="order.html" class="btn-primary">Pesan Sekarang</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Packages Section -->
+    <section class="packages">
+        <div class="container">
+            <h2>Pakej Istimewa</h2>
+            <div class="package-grid">
+                <div class="package-card">
+                    <h3>Pakej Keluarga</h3>
+                    <div class="price">RM 120</div>
+                    <ul>
+                        <li>3 jenis kuih tradisional</li>
+                        <li>2 jenis kerepek</li>
+                        <li>1 tart nenas</li>
+                        <li>Percuma 1 bahulu</li>
+                    </ul>
+                    <a href="order.html" class="btn-secondary">Pesan Pakej</a>
+                </div>
+                <div class="package-card">
+                    <h3>Pakej Majlis</h3>
+                    <div class="price">RM 250</div>
+                    <ul>
+                        <li>5 jenis kuih tradisional</li>
+                        <li>4 jenis kerepek</li>
+                        <li>2 tart nenas</li>
+                        <li>Kek lapis istimewa</li>
+                        <li>Percuma 1 jala emas</li>
+                    </ul>
+                    <a href="order.html" class="btn-secondary">Pesan Pakej</a>
+                </div>
+                <div class="package-card">
+                    <h3>Pakej Hadiah</h3>
+                    <div class="price">RM 180</div>
+                    <ul>
+                        <li>4 jenis kuih pilihan</li>
+                        <li>3 jenis kerepek premium</li>
+                        <li>1 tart nenas istimewa</li>
+                        <li>Pembungkusan hadiah eksklusif</li>
+                    </ul>
+                    <a href="order.html" class="btn-secondary">Pesan Pakej</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Nutrition Section -->
+    <section class="nutrition">
+        <div class="container">
+            <h2>Maklumat Pemakanan</h2>
+            <div class="nutrition-grid">
+                <div class="nutrition-card">
+                    <h3>Bahulu</h3>
+                    <p><strong>Bahan Utama:</strong> Tepung gandum, telur, gula</p>
+                    <p><strong>Kalori (S):</strong> 120 kcal / keping</p>
+                </div>
+                <div class="nutrition-card">
+                    <h3>Kerepek Pisang</h3>
+                    <p><strong>Bahan Utama:</strong> Pisang, minyak masak, garam</p>
+                    <p><strong>Kalori (S):</strong> 150 kcal / 100g</p>
+                </div>
+                <div class="nutrition-card">
+                    <h3>Karipap 3 Benua</h3>
+                    <p><strong>Bahan Utama:</strong> Tepung, kentang, daging, rempah</p>
+                    <p><strong>Kalori (S):</strong> 180 kcal / biji</p>
+                </div>
+                <div class="nutrition-card">
+                    <h3>Tart Nenas</h3>
+                    <p><strong>Bahan Utama:</strong> Tepung, mentega, nenas, gula</p>
+                    <p><strong>Kalori (S):</strong> 200 kcal / biji</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="gallery">
+        <div class="container">
+            <h2>Galeri Kami</h2>
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="assets/images/kuih_bahulu.jpg" alt="Kuih Bahulu">
+                    <p>Kuih Bahulu Tradisional</p>
+                </div>
+                <div class="gallery-item">
+                    <img src="assets/images/kuih_jala_emas.jpg" alt="Jala Emas">
+                    <p>Jala Emas Istimewa</p>
+                </div>
+                <div class="gallery-item">
+                    <img src="assets/images/karipap_3_benua.jpg" alt="Karipap 3 Benua">
+                    <p>Karipap 3 Benua</p>
+                </div>
+                <div class="gallery-item">
+                    <img src="assets/images/tart_nenas.jpg" alt="Tart Nenas">
+                    <p>Tart Nenas Homemade</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>CIKYAH KUIH DAN KEREPEK</h3>
+                    <p>Kuih & Kerepek Tradisi Terengganu</p>
+                    <p>Segar, Rangup, Homemade</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Hubungi Kami</h4>
+                    <p>011-2554 8624</p>
+                    <p>cikyah.kuih@gmail.com</p>
+                    <p>Waktu Operasi: 8:00 pagi - 8:00 malam</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Ikuti Kami</h4>
+                    <div class="social-links">
+                        <a href="#">Facebook</a>
+                        <a href="#">Instagram</a>
+                        <a href="#">TikTok</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 CIKYAH KUIH DAN KEREPEK. All rights reserved.</p>
+                <p class="credit">Imej dari Freepik - untuk tujuan demonstrasi sahaja</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Cart Side Panel -->
+    <div class="cart-panel" id="cartPanel">
+        <div class="cart-header">
+            <h3>Keranjang Anda</h3>
+            <button class="close-cart" id="closeCart">&times;</button>
+        </div>
+        <div class="cart-items" id="cartItems">
+            <!-- Cart items will be populated by JavaScript -->
+        </div>
+        <div class="cart-footer">
+            <div class="cart-total">
+                <span>Jumlah:</span>
+                <span id="cartTotal">RM 0.00</span>
+            </div>
+            <button class="btn-primary" id="checkoutBtn">Checkout</button>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
